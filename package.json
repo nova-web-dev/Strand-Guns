@@ -1,0 +1,29 @@
+{
+  "name": "strand-guns",
+  "version": "1.0.0",
+  "description": "This is the sponsored Strand Guns website: https://decimaza.github.io/Strand-Guns/",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DecimaZA/Strand-Guns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DecimaZA/Strand-Guns/issues"
+  },
+  "homepage": "https://github.com/DecimaZA/Strand-Guns#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "parcel": "^1.12.3",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
