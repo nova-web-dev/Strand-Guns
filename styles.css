@@ -1,0 +1,100 @@
+body {margin: 0;}
+
+h2 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#home {
+
+}
+
+#about {
+
+}
+
+#contact {
+
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-align: justified;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: rgba(165, 42, 42, 0.815);}
+
+ul.topnav li.right {float: right;}
+
+ul.div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    font-family: sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+    img {width: 200px}
+}
+
+@media screen and (max-width: 600px) {
+    img {width: 300px}
+}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+img {
+    display: flex;
+    max-width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firearm-logo {
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
