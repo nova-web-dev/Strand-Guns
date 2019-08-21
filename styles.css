@@ -1,4 +1,7 @@
-body {margin: 0;}
+body {
+    margin: 0;
+    padding-top: 46px;
+}
 
 h2 {
     font-family: 'Black Ops One', cursive;
@@ -17,6 +20,11 @@ h3 {
 p {
     font-family: sans-serif;
     text-align: center;
+}
+
+#home {
+    padding: 0;
+    margin: 0;
 }
 
 ul.topnav {
