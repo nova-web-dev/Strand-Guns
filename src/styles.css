@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding-top: 46px;
+    padding-top: 56px;
 }
 
 h2 {
@@ -93,4 +93,13 @@ img {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.jumbotron-padded {
+    padding: 30px;
+    text-align: center;
+}
+
+.jumbo-container {
+    margin: 25px 0;
 }
